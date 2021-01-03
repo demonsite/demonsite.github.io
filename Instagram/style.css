@@ -1,0 +1,78 @@
+.logo{
+	font-family: billabong;
+	font-size: 55px;
+}
+
+body{
+	background: #dde1e7
+}
+.box{
+	border-radius: 20px;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	padding: 0px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #dde1e7;
+	text-align: center;
+	align-items: center;
+	transition: 0.25s;
+	
+
+}
+.box:hover{
+	box-shadow:  -3px -3px 5px #F0FFFF,   3px 3px 15px #696969;
+}
+
+.box input:focus{
+	box-shadow: -3px -3px 5px #F0FFFF, 3px 3px 15px #696969
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+	border: 1px solid grey;
+	background: none;
+	display: block;
+	margin: 5px auto;
+	text-align: left;
+	padding: 9px 10px;
+	width: 250px;
+	color: black;
+	border-radius: 3px;
+	transition: 0.25s;
+}
+.box input[type = "submit"]{
+border: 1px solid #1E90FF;
+	background: #1E90FF;
+	display: block;
+	margin: 15px auto;
+	text-align: center;
+	padding: 5px 10px;
+	width: 270px;
+	color: white;
+	border-radius: 3px;
+	transition: 0.25s;
+}
+
+a{
+	color: #4169E1
+}
+
+#fb{
+	font-size: 15px;
+}
+
+#Forgot{
+	font-size: 12px;
+}
+.line{
+	margin: 25px;
+	color: lightgrey;
+	
+}
+
+
+
+
+
