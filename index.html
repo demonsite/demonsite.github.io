@@ -1,48 +1,106 @@
-<!DOCTYPE html>
-<html>
-<link
-	href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
-	rel="stylesheet"
-/>
-<link rel="stylesheet" type="text/css" href="style.css">
-<head>
+*{
+    margin: 0px;
+    text-decoration: none;
+}
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155373947-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-155373947-1');
-</script>
-	<title>Dummy site</title>
-</head>
-<body>
-	<!-- <img class="logo" src="logo.png" width="42px" alt=""> -->
-	<header>
-		<nav>
-			<div>
-				<h1 id="logo">2<span>XP</span></h1>
-			</div>
-			<div class="options">
-				<a class="home" href="#Home">Home</a>
-				<a href="#Services">Services</a>
-				<a href="#About">About</a>
-				<a href="#Contact">Contact</a>
-				<a href="#Share">Share</a>
-			</div>
-
-			<div class="logsign">
-				<a class="login" href="#login">Login</a>
-				<a class="sign" href="#sign up">Sign up</a>
-		
-			</div>
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #15151a;
+}
 
 
-		</nav>
-	</header>
+nav{
+    height: 60px;
+    background-color: #161616;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    
+}
+
+#logo{
+    color: #FFD700;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#logo:hover{
+    color: #6c63ff;
+}
+
+#logo:hover >span{
+    color: #FFD700;
+}
+
+span{
+    color: #6c63ff;
+}
+
+.logsign a{
+    margin: 10px;
+}
 
 
-</body>
-</html>
+
+
+.options a{
+    margin: 30px;
+    color: #868686;
+    transition: 0.25s;
+    
+}
+
+.options a:hover{
+    color: #6c63ff;
+}
+
+
+
+
+.login{
+    font-weight: bold;
+    /* position: absolute; */
+    /* top: 10px; */
+    padding: 10px 20px;
+    /* right: 140px; */
+    color:   #6c63ff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: none  ;
+    transition: 0.25s;
+    /* border: 2px solid  #6c63ff; */
+ 
+}
+.login:hover{
+    background-color:#2f2e41;
+    color: #FFD700;
+    /* border: 2px solid  #2f2e41; */
+    border-top: 2px solid  #FFD700;
+}
+
+
+.sign{
+    font-weight: bold;
+    /* position: absolute; */
+    /* top: 10px; */
+    padding: 10px 20px;
+    /* right: 10px; */
+    color:   #6c63ff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: none  ;
+    transition: 0.25s;
+    /* border: 2px solid  #6c63ff; */
+   
+}
+.sign:hover{
+    background-color:#2f2e41;
+    color: #50fa7b;
+    border-top: 2px solid  #50fa7b;
+}
+
+/* ................................................................ */
+
