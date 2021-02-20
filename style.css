@@ -181,6 +181,10 @@ nav .menu ul {
   top: 40%;
 }
 
+.input-box h1{
+  text-align: center;
+}
+
 .input-box input {
   background: none;
   border: 2px solid #3f3d56;
@@ -241,6 +245,8 @@ nav .menu ul {
 }
 
 @media screen and (max-width: 450px) {
+
+  
   body {
     padding: 0px 10px;
   }
@@ -303,6 +309,9 @@ nav .menu ul {
     align-items: center;
     justify-content: space-around;
   }
+
+  #contact .input-box {
+    width: 80%;}
 
   .socials {
     width: 80%;
